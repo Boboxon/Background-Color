@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 90vh;
+}
+
+.colorBtn{
+   padding: 0.25rem 0.5rem;
+    font-size: 30px;
+    border: 3px solid #fefefe;
+    background: rgba(0,0,0,0.6);
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+    border-radius: 7px;
+    position: relative;
+    left: 250px;
+    bottom: 100px;
+}
+
+.colorBtn:hover{
+    background: black;
+    color: white;
+}
+
+.audio-player{
+    position: relative;
+    top: 80px;
+    right: 130px;
+}
+
+p{
+    font-size: 30px;
+    position: relative;
+    right: 500px;
+    border: 3px solid #fefefe;
+    border-radius: 7px;
+    background: rgb(121, 116, 116);
+    color: rgb(231, 223, 223);
+
+}
